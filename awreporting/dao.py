@@ -67,5 +67,4 @@ class YmlDao(Dao):
 
 
 if __name__ == '__main__':
-    dao = Dao('localhost', '5432', 'postgres', 'continente7', 'solar')
-    dao = YmlDao('db.yml', 'solar@localhost')
+    dao = YmlDao('db.yml', 'adwords@localhost')
